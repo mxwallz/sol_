@@ -17,8 +17,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Due Diligence & Scanners",
+    paragraph: "Tired of getting rugged? The  next step is doing more due diligence. Scanners help you see the red flags before you invest.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -38,9 +38,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Trading Bots & Software",
+    paragraph: "If you're trading memecoins, you're going to have to use something that fits your needs.",
+    btn: "Explore Trading Tools",
     btnLink: "/#",
   },
   {
@@ -91,9 +91,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Bridging & Transfering Money",
+    paragraph: "Moving money from one crypto-currency to another? It can get frustrating, see the highest vetted bridges",
+    btn: "Explore Bridging Tools",
     btnLink: "/#",
   },
   {

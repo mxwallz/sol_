@@ -10,6 +10,7 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
+import Categories from "@/components/Categories";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
@@ -26,13 +27,14 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <About />
+      <Categories />
+      <HomeBlogSection posts={posts} />
       <CallToAction />
+      <About />
       <Pricing />
       <Testimonials />
       <Faq />
       <Team />
-      <HomeBlogSection posts={posts} />
       <Contact />
       <Clients />
     </main>
