@@ -45,7 +45,10 @@ const Header = () => {
 
   return (
     <>
-      <header
+      <header style={{
+      background: 'radial-gradient(circle, rgba(57,34,89,1) 0%, rgba(102,38,191,1) 100%)'
+    }}
+      
         className={`ud-header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "shadow-nav fixed z-[999] border-b border-stroke bg-white/80 backdrop-blur-[5px] dark:border-violet-900 dark:decoration-indigo-700"

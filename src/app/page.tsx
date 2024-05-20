@@ -29,6 +29,7 @@ export default function Home() {
       <Features />
       <Categories />
       <HomeBlogSection posts={posts} />
+      {/*
       <CallToAction />
       <About />
       <Pricing />
@@ -37,6 +38,7 @@ export default function Home() {
       <Team />
       <Contact />
       <Clients />
+  */}
     </main>
   );
 }

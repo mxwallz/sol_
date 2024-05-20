@@ -52,6 +52,9 @@ const Hero = () => {
       <section
         id="home"
         className="relative overflow-hidden dark:bg-dark pt-[120px] md:pt-[130px] lg:pt-[160px]"
+        style={{
+          background: 'radial-gradient(circle, rgba(57,34,89,1) 0%, rgba(102,38,191,1) 100%)'
+        }}
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
@@ -103,7 +106,7 @@ const Hero = () => {
                   </li>
                 </ul>
 
-                <div>
+                <div className='pb-10'>
                   <p className="mb-4 text-center text-base font-medium text-white/60">
                     Select Your Chain to Get Started:
                   </p>
