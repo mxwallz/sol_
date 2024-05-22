@@ -11,6 +11,7 @@ import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
 
+
 export default function RootLayout({
   children,
 }: {
@@ -30,7 +31,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body>
+      <body className="bg-custom" >
         {loading ? (
           <PreLoader />
         ) : (

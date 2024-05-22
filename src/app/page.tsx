@@ -11,8 +11,11 @@ import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import Categories from "@/components/Categories";
+import Library from "@/components/Library";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
+import Hero_Two from "@/components/Hero_Two"
+import HeroSection from "@/components/Hero_Two";
 
 export const metadata: Metadata = {
   title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
@@ -27,6 +30,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
+      <Library />
       <Categories />
       <HomeBlogSection posts={posts} />
       {/*

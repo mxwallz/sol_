@@ -1,7 +1,8 @@
 import { Feature } from "@/types/feature";
+import categryData from "./categoryData";
 import Link from "next/link";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
+const CategoryCard = ({ feature }: { feature: Feature }) => {
   const { icon, title, paragraph, btn, btnLink } = feature;
   return (
     <div className="w-full px-2 md:w-1/3 lg:w-1/6">
@@ -24,4 +25,4 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
   );
 };
 
-export default SingleFeature;
+export default CategoryCard;
