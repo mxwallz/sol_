@@ -18,7 +18,7 @@ import Hero_Two from "@/components/Hero_Two"
 import HeroSection from "@/components/Hero_Two";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Solana Toolkit",
   description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
 };
 
@@ -31,7 +31,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Library />
-      <Categories />
       <HomeBlogSection posts={posts} />
       {/*
       <CallToAction />

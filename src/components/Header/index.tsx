@@ -45,15 +45,16 @@ const Header = () => {
 
   return (
     <>
-      <header style={{
-      background: 'radial-gradient(circle, rgba(57,34,89,1) 0%, rgba(102,38,191,1) 100%)'
-    }}
+      <header
       
         className={`ud-header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "shadow-nav fixed z-[999] border-b border-stroke bg-white/80 backdrop-blur-[5px] dark:border-violet-900 dark:decoration-indigo-700"
             : "absolute bg-transparent"
         }`}
+        style={{
+          background: 'radial-gradient(circle,  rgba(102,38,191,1) 0%, rgba(17,26,38,1) 100%)'
+        }}
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
@@ -67,14 +68,14 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images/logo/logo.svg`}
+                      src={`/images/logo/logo_v2.svg`}
                       alt="logo"
                       width={240}
                       height={30}
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={`/images/logo/logo-white.svg`}
+                      src={`/images/logo/logo_v2.svg`}
                       alt="logo"
                       width={240}
                       height={30}
@@ -86,7 +87,7 @@ const Header = () => {
                     <Image
                       src={`${
                         sticky
-                          ? "/images/logo/logo.svg"
+                          ? "/images/logo/logo_v2.svg"
                           : "/images/logo/logo-white.svg"
                       }`}
                       alt="logo"
@@ -95,7 +96,7 @@ const Header = () => {
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={"/images/logo/logo_white.svg"}
+                      src={"/images/logo/logo_v2.svg"}
                       alt="logo"
                       width={140}
                       height={30}
@@ -261,8 +262,11 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
+
+              
               <div className="hidden items-center justify-end pr-16 sm:flex lg:pr-0">
-                {/* theme toggler */}
+                {/*
+                 theme toggler 
                 <button
                   aria-label="theme toggler"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -288,6 +292,7 @@ const Header = () => {
                     </svg>
                   </span>
                 </button>
+                */}
 
                 {session?.user ? (
                   <>

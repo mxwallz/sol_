@@ -4,7 +4,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer
-      className="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
+      className="wow fadeInUp relative z-10 pt-20 lg:pt-[100px]"
+      style={{
+        background: 'radial-gradient(circle,  rgba(102,38,191,1) 0%, rgba(17,26,38,1) 100%)'
+      }}
       data-wow-delay=".15s"
     >
       <div className="container">
@@ -292,14 +295,9 @@ const Footer = () => {
               <div className="my-1 flex justify-center md:justify-end">
                 <p className="text-base text-gray-7">
                   Designed and Developed by{" "}
-                  <a
-                    href="https://tailgrids.com"
-                    rel="nofollow noopner noreferrer"
-                    target="_blank"
-                    className="text-gray-1 hover:underline"
-                  >
-                    TailGrids and Next.js Templates
-                  </a>
+
+                    Dextoolbox
+                
                 </p>
               </div>
             </div>
