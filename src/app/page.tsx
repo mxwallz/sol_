@@ -28,11 +28,12 @@ export default function Home() {
   return (
     <main>
       <ScrollUp />
-      <Hero />
       <Features />
       <Library />
-      <HomeBlogSection posts={posts} />
+      
       {/*
+      <HomeBlogSection posts={posts} />
+      <CallToAction />
       <CallToAction />
       <About />
       <Pricing />

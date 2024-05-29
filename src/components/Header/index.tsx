@@ -264,6 +264,8 @@ const Header = () => {
               </div>
 
               
+              {/*
+              
               <div className="hidden items-center justify-end pr-16 sm:flex lg:pr-0">
                 {/*
                  theme toggler 
@@ -292,8 +294,8 @@ const Header = () => {
                     </svg>
                   </span>
                 </button>
-                */}
-
+                -- end toggle 
+            
                 {session?.user ? (
                   <>
                     <p
@@ -361,6 +363,7 @@ const Header = () => {
                   </>
                 )}
               </div>
+              */}
             </div>
           </div>
         </div>

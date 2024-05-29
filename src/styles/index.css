@@ -12,6 +12,17 @@
 body {
   font-family: "Inter", sans-serif;
 }
+@media (max-width: 767px) {
+  .category-card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .category-card {
+    width: 33.3333%;
+  }
+}
 
 .bubble {
   display: inline-block;

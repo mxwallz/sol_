@@ -51,7 +51,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative overflow-hidden dark:bg-dark pt-[120px] md:pt-[130px] lg:pt-[160px]"
+        className="relative overflow-hidden dark:bg-dark pb-0 pt-[120px] md:pt-[130px] lg:pt-[160px]"
         style={{
           background: 'radial-gradient(circle,  rgba(102,38,191,1) 0%, rgba(17,26,38,1) 100%)'
         }}
@@ -70,18 +70,33 @@ const Hero = () => {
                 
                  >The best </span>toolbox to help you trade smarter and stay ahead of the Solana Market.  
                 </h1>
+                {/*
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
                   Level up your toolbox now:
                 </p>
+                */}
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link
                       href="https://nextjstemplates.com/templates/play"
-                      className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-blue-400"
+                      className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-purple-400"
                     >
-                      Explore Tools
+                      Get Started Now
+                      <svg fill="#1C2033" width="24" height="24" 
+                       id="lni_lni-angle-double-down"  viewBox="0 0 64 64" >
+                      <g>
+                      	<path d="M30.4,38.4c0.4,0.4,1,0.6,1.6,0.6c0.6,0,1.1-0.2,1.6-0.6l23-22.6c0.9-0.9,0.9-2.3,0-3.2c-0.9-0.9-2.3-0.9-3.2,0L32,33.6
+                      		L10.6,12.6c-0.9-0.9-2.3-0.9-3.2,0c-0.9,0.9-0.9,2.3,0,3.2L30.4,38.4z"/>
+                      	<path d="M53.4,25.6L32,46.6L10.6,25.6c-0.9-0.9-2.3-0.9-3.2,0s-0.9,2.3,0,3.2l23,22.6c0.4,0.4,1,0.6,1.6,0.6c0.6,0,1.1-0.2,1.6-0.6
+                      		l23-22.6c0.9-0.9,0.9-2.3,0-3.2S54.3,24.7,53.4,25.6z"/>
+                      </g>
+                      </svg>
+
+
                     </Link>
+                     {/*
                   </li>
+                 
                   <li>
                     <Link
                       href="https://github.com/nextjsTemplates/play-nextjs"
@@ -105,11 +120,15 @@ const Hero = () => {
                       		H15.9c-1.1,0-2-0.7-2-1.6V16C14.7,16.3,15.6,16.4,16.6,16.4z"/>
                       </g>
                       </svg>
+  
                      
                     </Link>
+                        */}
                   </li>
                 </ul>
 
+                
+                {/*
                 <div className='pb-10'>
                   <p className="mb-4 text-center text-base font-medium text-white/60">
                     So far, available for the following chains:
@@ -174,6 +193,7 @@ const Hero = () => {
                 </a>
                 </div>
               </div>
+              */}
             </div>
             {/*
         
