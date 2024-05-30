@@ -1,7 +1,6 @@
 // components/Card.js
 import Link from 'next/link';
 import Image from 'next/image';
-import trojen from "../../public/images/cards";
 
 
 const CardTwo = ({ tool }) => {

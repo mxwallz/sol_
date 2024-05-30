@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const SingleTeam = ({ tool }) => {
   return (
-    <div className="w-full px-4  p-4 rounded-lg shadow-lg flex flex-col justify-between">
+    <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4 flex flex-col justify-between">
       <div className="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none flex flex-col h-full justify-between">
         <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
           <Image

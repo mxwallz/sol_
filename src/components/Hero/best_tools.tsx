@@ -1,4 +1,3 @@
-'use client';
 import { TeamType } from "@/types/team";
 import Image from "next/image";
 
