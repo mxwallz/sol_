@@ -40,12 +40,12 @@ const SearchBar: React.FC<SearchBarProps> = ({ setSearchQuery, setFilter, catego
           type="text"
           value={tempQuery}
           placeholder="Search tools..."
-          className="p-2 rounded-lg border border-gray-300 w-full"
+          className="p-2 rounded-lg border bg-dark border-gray-300 w-full"
           onChange={handleChange}
         />
         <div className="flex space-x-4 ml-4">
           <select
-            className="p-2 rounded-lg border border-gray-300"
+            className="p-2 rounded-lg bg-dark border border-gray-300"
             onChange={(e) => setFilter(e.target.value)}
           >
             <option value="All">All Categories</option>

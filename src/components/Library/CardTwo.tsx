@@ -13,7 +13,7 @@ interface CardTwoProps {
 const CardTwo: React.FC<CardTwoProps> = ({tool}) => {
   return (
     <div className="flex flex-col justify-bewtween">
-      <div className="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none flex flex-col h-full justify-between">
+      <div className="group mb-8 rounded-xl bg-dark px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none flex flex-col h-full justify-between">
         <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
           <Image
             src={tool.image}
