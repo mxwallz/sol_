@@ -1,7 +1,6 @@
 
 import ScrollUp from "@/components/Common/ScrollUp";
 import Features from "@/components/Features";
-
 import Library from "@/components/Library";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
