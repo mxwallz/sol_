@@ -36,11 +36,17 @@ const Features = () => {
         </div>
         </section>
       <div className="container mx-auto my-1 flex flex-col items-center text-center">
-        <SectionTitle
+       
+       
+       
+       
 
-        />
 
         {/* getting rid of this temporarily 
+
+                <SectionTitle
+
+        />
         <div className="-mx-4 mt-12 flex flex-wrap justify-center lg:mt-20">
           {featuresData.map((feature, i) => (
             <SingleFeature key={i} feature={feature} />
