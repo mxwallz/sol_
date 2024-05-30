@@ -42,11 +42,7 @@ const Features = () => {
        
 
 
-        {/* getting rid of this temporarily 
-
-                <SectionTitle
-
-        />
+        {/* getting rid of this temporarily got rid of section title 
         <div className="-mx-4 mt-12 flex flex-wrap justify-center lg:mt-20">
           {featuresData.map((feature, i) => (
             <SingleFeature key={i} feature={feature} />
