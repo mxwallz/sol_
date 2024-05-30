@@ -4,9 +4,15 @@ import categoryData from "./categoryData";
 import Link from "next/link";
 
 
+interface CategoryCardProps {
+  feature: Feature;
+  onClick: () => void;
+  selectedCategory: string;
+}
 
 
-const CategoryCard = ({ feature, onClick, selectedCategory }) => {
+
+const CategoryCard: React.FC<CategoryCardProps> = ({ feature, onClick, selectedCategory }) => {
   const { icon, title, paragraph, btn, btnLink } = feature;
   return (
     <div className="w-full sm:w-1/2 p-2 category-card"         

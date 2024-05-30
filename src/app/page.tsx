@@ -32,7 +32,6 @@ export default function Home() {
       <Library />
       
       {/*
-      <HomeBlogSection posts={posts} />
       <CallToAction />
       <CallToAction />
       <About />

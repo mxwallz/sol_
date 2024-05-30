@@ -8,16 +8,24 @@ import { useDebouncedCallback } from 'use-debounce';
 
 
 // components/SearchBar.jsx
+interface SearchBarProps {
+  setSearchQuery: (query: string) => void;
+  setFilter: (category: string) => void;
+  categories: string[];
+  selectedCategory: string;
+}
 
 
-const SearchBar = ({ setSearchQuery, setFilter, categories, selectedCategory }) => {
+
+
+const SearchBar: React.FC<SearchBarProps> = ({ setSearchQuery, setFilter, categories, selectedCategory }) => {
   const [tempQuery, setTempQuery] = useState('');
 
   const handleSearch = useDebouncedCallback((term) => {
     setSearchQuery(term);
   }, 300);
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value;
     setTempQuery(query);
     handleSearch(query);
