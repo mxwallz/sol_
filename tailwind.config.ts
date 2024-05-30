@@ -10,8 +10,6 @@ const config: Config = {
   ],
   theme:{},
   plugins: [require("tailgrids/plugin")],
-  daisyui: {
-    themes: ["light", "dark", "cupcake"],
-  },
+
 };
 export default config;
