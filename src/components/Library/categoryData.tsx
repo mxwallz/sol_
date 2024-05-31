@@ -19,7 +19,7 @@ const categoryData: Feature[] = [
      l8.6-8.6V52.3z"/>
    </svg>
     ),
-    title: "Contract Explorers",
+    title: "Token Safety Scanners",
     paragraph: "Avoid fishy contracts",
     btn: "Learn More",
     btnLink: "/#",
@@ -66,7 +66,7 @@ const categoryData: Feature[] = [
      c2,1.8,3.6,4,4.7,6.5H44.8z"/>
    </svg>
     ),
-    title: "Bridging & Transfering Money",
+    title: "Token Swapping Platforms",
     paragraph: "Transfer assets between chains quickly + securely",
     btn: "Explore Bridging Tools",
     btnLink: "/#",

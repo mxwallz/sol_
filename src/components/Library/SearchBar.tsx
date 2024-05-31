@@ -57,9 +57,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ setSearchQuery, setFilter, catego
           </select>
         </div>
       </div>
-      <section className="pb-0 pt-0">
-        <div className="container flex">
-          <div className="flex flex-wrap md:flex-nowrap  md:mb-3 mx-2 justify-center">
+      <section className="pb-0 pt-0 bg-transparent">
+        <div className="container flex bg-transparent">
+          <div className="flex flex-wrap md:flex-nowrap  md:mb-3 mx-2 justify-center bg-transparent">
             {categoryData.map((feature, i) => (
               <CategoryCard
                 key={i}

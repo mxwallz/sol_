@@ -748,8 +748,8 @@ const mockData = [
   const categories = [
     'All', 'Automated Caller Bots', 'Token Safety Scanners', 'Blockchain Navigation Tools', 'NFT Access Management', 'NFT Marketplaces',
     'Automated NFT Minters', 'NFT Sniper Bots', 'Portfolio Tracker', 'Proxy Server Providers',
-    'Remote Procedure Call Nodes', 'Digital Wallets', 'Solana Airdrop', 'Token Swapping Platforms', 'Telegram Trading Bots',
-    'Token Insights/ Analytics', 'Token Sniper Bot', 'Trading Bots', 'Utilities', 'Virtual Private Servers (VPS)'
+    'Remote Procedure Call Nodes', 'Digital Wallets', 'Token Swapping Platforms',
+    'Token Insights/ Analytics', 'Utilities', 
   ];
 
   const handleCategorySelect = (category:string) => {
@@ -786,7 +786,7 @@ const mockData = [
   
     return (
       <div className="container mx-auto px-4 bg-custom"
-        style={{ background: 'radial-gradient(circle, rgba(102,38,191,1) 75%, rgba(17,26,38,1) 100%)' }}
+        style={{ background: 'radial-gradient(circle, rgba(102,38,191,1) 0%, rgba(17,26,38,1) 100%)' }}
       >
         <SearchBar setSearchQuery={handleSearch} setFilter={handleCategorySelect} categories={categories} selectedCategory={selectedCategory} />
         <div className="my-4 flex flex-wrap justify-center sm:justify-start justify-start">

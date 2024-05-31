@@ -16,11 +16,9 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ feature, onClick, selectedC
   const { icon, title, paragraph, btn, btnLink } = feature;
   return (
     <div className="w-full sm:w-1/2 p-2 category-card"         
-    style={{
-      background: 'radial-gradient(circle,  rgba(102,38,191,1) 0%, rgba(17,26,38,1) 100%)'
-    }}>
+>
       <div
-        className={`wow fadeInUp group mb-4 p-2 rounded-lg shadow-md h-full flex flex-col items-center cursor-pointer ${
+        className={`wow fadeInUp  border-gray-200 group mb-4 p-2 rounded-lg shadow-md h-full flex flex-col items-center cursor-pointer ${
           selectedCategory === title ? 'text-white' : 'bg-transparent'
         }`}
         data-wow-delay=".15s"
