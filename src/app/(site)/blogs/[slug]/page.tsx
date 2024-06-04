@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props) {
     "author",
     "content",
     "metadata",
+    "metaDescription",
   ]);
 
   const siteName = process.env.SITE_NAME || "Your Site Name";
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: Props) {
     const metadata = {
       title: `${post.title || "Single Post Page"} | ${siteName}`,
       author: authorName,
+      description: post.metaDescription || `Learn what ${post.title} is, how to get started, and explore other top tools and resources in solana like dexscreener, solana explorer, NFTs, and more to boost your trading.` ,
       robots: {
         index: true,
         follow: true,

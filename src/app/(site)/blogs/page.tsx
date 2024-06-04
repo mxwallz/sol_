@@ -5,8 +5,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Blog Grids | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Blog grids page description",
+    "Solana Stack – The Best Tools & Resources for Solana Traders",
+  description: "Get started with the best tools and resources for Solana traders. Find dexscreener, solana explorer, NFTs, and more to boost your trading.",
 };
 
 const Blog = () => {

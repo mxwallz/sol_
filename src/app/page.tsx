@@ -7,8 +7,8 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Solana Toolkit",
-  description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+  title: "Solana Stack – The Best Tools & Resources for Solana Traders",
+  description: "SolanaStack.xyz is your go-to directory for Solana tools and resources. Find dexscreener, solana explorer, NFTs, and more to boost your trading.",
 };
 
 export default function Home() {
