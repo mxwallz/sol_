@@ -9,6 +9,10 @@ import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
+import type { Metadata } from "next";
+
+
+
 
 
 export default function RootLayout({

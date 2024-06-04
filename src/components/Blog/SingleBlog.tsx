@@ -2,6 +2,8 @@ import { Blog } from "@/types/blog";
 import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
   const { title, coverImage, excerpt, date, slug } = blog;
