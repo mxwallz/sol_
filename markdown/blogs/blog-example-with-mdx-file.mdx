@@ -1,55 +1,51 @@
 ---
 title: Blog Example with MDX
-excerpt: Blog Example with MDX That Comes with Templates
+excerpt: Getting started with Blog Example with MDX
 date: 2025-12-24
 coverImage: /images/blog/blog-02.jpg
 author: Musharof
 authorImage: /images/blog/author-02.jpg
+metaDescription: Blog Example with MDX shows you how to configure a contact form with Tailwind CSS Templates and Bootstrap Templates. Learn more today.
 ---
 
-## Introduction
+# Getting started with Blog Example with MDX
 
-This part of the documentation shows you how you can configure a contact form with Tailwind CSS Templates and Bootstrap Templates.
+## What is Blog Example with MDX?
 
-## Using PHP Contact Form:
+Blog Example with MDX shows you how you can configure a contact form with Tailwind CSS Templates and Bootstrap Templates.
 
-For Bootstrap templates, we used to provide a PHP script that only can be used for PHP servers,
+## Why Blog Example with MDX?
 
-if `phpmailer` function is up and running smoothly.
+### Key Advantages
 
-Here is how it works: Just **replace the email address with your own** from
+- **PHP Contact Form**: Configurable with PHP servers.
+- **FormBold Integration**: Universal Form API for dynamic forms.
+- **Ease of Use**: Simple integration process.
 
-```bash
-assets->php>contact.php
-```
+### Best Features
 
-This procedure should work if everything is configured properly on the server side.
+- **PHP Contact Form**: Use with `phpmailer` function for PHP servers.
+- **FormBold Integration**: Serverless form backend compatible with all hosting, SSG, and frameworks.
 
-## Using FormBold: A universal Form API (Recommended):
+## How to get started
 
-[FormBold](https://formbold.com/) is a powerful form API and serverless form backend that works with all hosting, SSG, and frameworks.
+### Steps to Get Started
 
-We highly recommend, using a serverless end-point ([FormBold](https://formbold.com/)) to make contact form dynamic. Since most users nowadays don't use PHP servers.
+1. **Using PHP Contact Form**:
+   - Replace the email address with your own in `assets->php>contact.php`.
+   - Ensure `phpmailer` is up and running smoothly on the server side.
 
-Here’s how to connect [FormBold](https://formbold.com/) API with your contact form:
+2. **Using FormBold**:
+   - Create an account on [FormBold](https://formbold.com/) and create a Form.
+   - Integrate the API into your contact form using the provided code.
+   - Set your Form’s method to **POST**.
+   - Use the `unique_form_id` from the FormBold dashboard in the `action` attribute.
 
-**Step#1**: Create an account on [FormBold](https://formbold.com/) and create a Form.
+   ```html
+   <form action="https://formbold.com/s/unique_form_id" method="POST">
+     <input type="email" placeholder="email" name="email" />
+     <input type="text" placeholder="subject" name="subject" />
+     <textarea name="message" placeholder="message"></textarea>
 
-**Step#2**: Integrate the API into your contact Form using this code. Make sure your Form’s method is set to **POST**
-
-```html
-<form action="https://formbold.com/s/unique_form_id" method="POST">
-  <input type="email" placeholder="email" name="email" />
-  <input type="text" placeholder="subject" name="subject" />
-  <textarea name="message" placeholder="message"></textarea>
-
-  <button type="submit">Send Message</button>
-</form>
-```
-
-You’ll find the `unique_form_id` in the [FormBold](https://formbold.com/) dashboard under \***\*Settings>Integration.\*\***
-
-Copy and paste it to the **action** attribute.
-
-This is just the basic setup, FormBold has a lot of great features like re-captcha for spam protection, and the ability to integrate it with other apps like Webhook, Slack, Notion, and GoogleSheet.
-Learn more about [FormBold](https://formbold.com/) [here](https://formbold.com/).
+     <button type="submit">Send Message</button>
+   </form>
